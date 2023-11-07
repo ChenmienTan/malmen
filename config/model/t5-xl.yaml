@@ -1,0 +1,16 @@
+name_or_path: t5-xl
+class_name: AutoModelForSeq2SeqLM
+edit_modules:
+# - decoder.block.20.layer.2.DenseReluDense.wo
+# - decoder.block.21.layer.2.DenseReluDense.wo
+- decoder.block.22.layer.2.DenseReluDense.wi_0
+- decoder.block.23.layer.2.DenseReluDense.wi_0
+- decoder.block.22.layer.2.DenseReluDense.wo
+- decoder.block.23.layer.2.DenseReluDense.wo
+# - encoder.block.20.layer.1.DenseReluDense.wo
+# - encoder.block.21.layer.1.DenseReluDense.wo
+- encoder.block.22.layer.1.DenseReluDense.wi_0
+- encoder.block.23.layer.1.DenseReluDense.wi_0
+- encoder.block.22.layer.1.DenseReluDense.wo
+- encoder.block.23.layer.1.DenseReluDense.wo
+half: True

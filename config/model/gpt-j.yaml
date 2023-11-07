@@ -1,0 +1,13 @@
+name_or_path: EleutherAI/gpt-j-6B
+class_name: AutoModelForCausalLM
+edit_modules:
+- transformer.h.22.mlp.fc_out
+- transformer.h.23.mlp.fc_out
+- transformer.h.24.mlp.fc_out
+- transformer.h.25.mlp.fc_out
+- transformer.h.26.mlp.fc_out
+- transformer.h.27.mlp.fc_out
+# - transformer.h.25.mlp.fc_in
+# - transformer.h.26.mlp.fc_in
+# - transformer.h.27.mlp.fc_in
+half: True

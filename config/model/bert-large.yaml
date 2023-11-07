@@ -1,0 +1,14 @@
+name_or_path: bert-large-cased
+weight_path: _file_path_
+class_name: AutoModelForFEVER
+edit_modules:
+- backbone.encoder.layer.18.output.dense
+- backbone.encoder.layer.19.output.dense
+- backbone.encoder.layer.20.output.dense
+- backbone.encoder.layer.21.output.dense
+- backbone.encoder.layer.22.output.dense
+- backbone.encoder.layer.23.output.dense
+# - backbone.encoder.layer.21.intermediate.dense
+# - backbone.encoder.layer.22.intermediate.dense
+# - backbone.encoder.layer.23.intermediate.dense
+half: False

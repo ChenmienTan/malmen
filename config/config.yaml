@@ -1,0 +1,7 @@
+defaults:
+- _self_
+- data: zsre
+- model: t5-xl
+- editor: malmen
+model_device: cuda:0
+editor_device: cuda:0

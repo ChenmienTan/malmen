@@ -1,4 +1,4 @@
-name_or_path: t5-xl
+name_or_path: google/t5-xl-ssm-nq
 class_name: AutoModelForSeq2SeqLM
 edit_modules:
 # - decoder.block.20.layer.2.DenseReluDense.wo

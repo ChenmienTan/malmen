@@ -1,4 +1,4 @@
-name_or_path: gpt-2
+name_or_path: gpt2
 class_name: AutoModelForCausalLM
 edit_modules:
 - transformer.h.6.mlp.c_proj

@@ -1,0 +1,28 @@
+# MALMEN: MAssive Language Model Editing Network
+
+This repo contains the code of the preprint: Massive Editing for Large Language Models via Meta Learning.
+You can email `chenmien.tan@ed.ac.uk` for any issue.
+
+## Setup
+
+You can create a virtual environment and install the dependencies via [Anaconda](https://www.anaconda.com).
+```
+$ conda create -n malmen
+$ conda activate malmen
+(malmen)$ pip install -r requirements.txt
+```
+The datasets for all experiments presented in the manuscript are available at [this Google Drive link](https://drive.google.com/drive/folders/1gu5tdk7MyL7tGWhITINN0YIi_qeTJAAe?usp=share_link).
+You need to specify the paths to the `json` files in `config.data.train_path` and `config.data.valid_path`.
+You should also specify an empty folder in `config.editor.cache_dir` to store cache files generated during running the code.
+
+## Running
+
+You can set all hyper-parameters via modifying the `yaml` files in the folder `config`.
+You should run the code by executing the `main.py` file.
+You can also specify the hyper-parameters on the command line.
+```
+(malmen)$ python main.py  \
+    data=zsre  \
+    model=gpt-j  \
+    editor=malmen
+```

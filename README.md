@@ -1,6 +1,6 @@
 # MALMEN: MAssive Language Model Editing Network
 
-This repo contains the code of the preprint: Massive Editing for Large Language Models via Meta Learning.
+This repo contains the code of the preprint: [Massive Editing for Large Language Models via Meta Learning](https://arxiv.org/pdf/2311.04661.pdf).
 You can email `chenmien.tan@ed.ac.uk` for any issue.
 
 ## Setup
@@ -26,3 +26,7 @@ You can also specify the hyper-parameters on the command line.
     model=gpt-j  \
     editor=malmen
 ```
+
+## Acknowledgement
+
+We thank the implementation of [MEND](https://github.com/eric-mitchell/mend) and [MEMIT](https://github.com/kmeng01/memit), which inspires some  code in this repo.

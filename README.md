@@ -30,3 +30,17 @@ You can also specify the hyper-parameters on the command line.
 ## Acknowledgement
 
 We thank the implementation of [MEND](https://github.com/eric-mitchell/mend) and [MEMIT](https://github.com/kmeng01/memit), which inspires some  code in this repo.
+
+## Citation
+
+
+```
+@article{tan23malmen,
+    title={Massive Editing for Large Language Models via Meta Learning},
+    author={Chenmien Tan and Ge Zhang and Jie Fu},
+    journal={arXiv},
+    volume={2311.04661},
+    year={2023},
+    url={https://arxiv.org/pdf/2311.04661.pdf}
+}
+```

@@ -1,6 +1,6 @@
 # MALMEN: MAssive Language Model Editing Network
 
-This repo contains the code of the preprint: [Massive Editing for Large Language Models via Meta Learning](https://arxiv.org/pdf/2311.04661.pdf).
+This is the official repo of our ICLR'24 paper [Massive Editing for Large Language Models via Meta Learning](https://arxiv.org/pdf/2311.04661.pdf).
 You can email `chenmien.tan@ed.ac.uk` for any issue.
 
 ## Setup
@@ -35,12 +35,11 @@ We thank the implementation of [MEND](https://github.com/eric-mitchell/mend) and
 
 
 ```
-@article{tan23malmen,
+@inproceedings{tan23malmen,
     title={Massive Editing for Large Language Models via Meta Learning},
     author={Chenmien Tan and Ge Zhang and Jie Fu},
-    journal={arXiv},
-    volume={2311.04661},
-    year={2023},
-    url={https://arxiv.org/pdf/2311.04661.pdf}
+    booktitle={International Conference on Learning Representations},
+    year={2024},
+    url={https://openreview.net/pdf?id=L6L1CJQ2PE}
 }
 ```
